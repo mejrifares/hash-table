@@ -1,0 +1,17 @@
+ALGORITHM nom_algorithme
+VAR
+    T1: ARRAY_OF INTEGER [];
+    T2: ARRAY_OF INTEGER [];
+    i, j: INTEGER;
+    somme: INTEGER: = 0;
+COMMENCER
+    POUR (i: = 0, i <t1.length, ji ++) DO
+    POUR (j: = 0, j <t1.length, j ++) DO
+    Tandis que (T1 [i] == T2 [j]) FAIRE
+      somme + = T1 [i] + T2 [j];
+    END_WHILE
+    END_FOR
+    END_FOR
+    écrire (somme);
+FIN
+
